@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A238BED478CEBA2CC31920C2 /* Pods_____FM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B4572B157DE71F0C06939F /* Pods_____FM.framework */; };
+		D74BE9DC1E9CA20600FBF1D1 /* AppMarco.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74BE9DB1E9CA20600FBF1D1 /* AppMarco.swift */; };
+		D74BE9DE1E9CB2EF00FBF1D1 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74BE9DD1E9CB2EF00FBF1D1 /* Extension.swift */; };
+		D7792C7A1E9C9CA3007F1FD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7792C791E9C9CA3007F1FD0 /* AppDelegate.swift */; };
+		D7792C7C1E9C9CA3007F1FD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7792C7B1E9C9CA3007F1FD0 /* ViewController.swift */; };
+		D7792C7F1E9C9CA3007F1FD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7792C7D1E9C9CA3007F1FD0 /* Main.storyboard */; };
+		D7792C811E9C9CA3007F1FD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7792C801E9C9CA3007F1FD0 /* Assets.xcassets */; };
+		D7792C841E9C9CA3007F1FD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7792C821E9C9CA3007F1FD0 /* LaunchScreen.storyboard */; };
+		D7792C8F1E9C9CA3007F1FD0 /* ____FMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7792C8E1E9C9CA3007F1FD0 /* ____FMTests.swift */; };
+		D7792C9A1E9C9CA3007F1FD0 /* ____FMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7792C991E9C9CA3007F1FD0 /* ____FMUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7792C8B1E9C9CA3007F1FD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7792C6E1E9C9CA3007F1FD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7792C751E9C9CA3007F1FD0;
+			remoteInfo = "喜马拉雅FM";
+		};
+		D7792C961E9C9CA3007F1FD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7792C6E1E9C9CA3007F1FD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7792C751E9C9CA3007F1FD0;
+			remoteInfo = "喜马拉雅FM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1B4572B157DE71F0C06939F /* Pods_____FM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____FM.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74BE9DB1E9CA20600FBF1D1 /* AppMarco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMarco.swift; sourceTree = "<group>"; };
+		D74BE9DD1E9CB2EF00FBF1D1 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		D7792C761E9C9CA3007F1FD0 /* 喜马拉雅FM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "喜马拉雅FM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7792C791E9C9CA3007F1FD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		D7792C7B1E9C9CA3007F1FD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		D7792C7E1E9C9CA3007F1FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7792C801E9C9CA3007F1FD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		D7792C831E9C9CA3007F1FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7792C851E9C9CA3007F1FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		D7792C8A1E9C9CA3007F1FD0 /* 喜马拉雅FMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "喜马拉雅FMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7792C8E1E9C9CA3007F1FD0 /* ____FMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____FMTests.swift"; sourceTree = "<group>"; };
+		D7792C901E9C9CA3007F1FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7792C951E9C9CA3007F1FD0 /* 喜马拉雅FMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "喜马拉雅FMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7792C991E9C9CA3007F1FD0 /* ____FMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____FMUITests.swift"; sourceTree = "<group>"; };
+		D7792C9B1E9C9CA3007F1FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBC55140E53FEEDBB80B2D4 /* Pods-喜马拉雅FM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-喜马拉雅FM.release.xcconfig"; path = "Pods/Target Support Files/Pods-喜马拉雅FM/Pods-喜马拉雅FM.release.xcconfig"; sourceTree = "<group>"; };
+		FE2B546572343D59352DB5E3 /* Pods-喜马拉雅FM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-喜马拉雅FM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-喜马拉雅FM/Pods-喜马拉雅FM.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7792C731E9C9CA3007F1FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A238BED478CEBA2CC31920C2 /* Pods_____FM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7792C871E9C9CA3007F1FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7792C921E9C9CA3007F1FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45D573033279DD6691DE5D31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE2B546572343D59352DB5E3 /* Pods-喜马拉雅FM.debug.xcconfig */,
+				DDBC55140E53FEEDBB80B2D4 /* Pods-喜马拉雅FM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC8E0C5C38BE2F1BC86CABDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1B4572B157DE71F0C06939F /* Pods_____FM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D74BE9D71E9CA1C800FBF1D1 /* FMClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FMClass;
+			sourceTree = "<group>";
+		};
+		D74BE9D81E9CA1C800FBF1D1 /* FMHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D74BE9DB1E9CA20600FBF1D1 /* AppMarco.swift */,
+				D74BE9DD1E9CB2EF00FBF1D1 /* Extension.swift */,
+			);
+			path = FMHelper;
+			sourceTree = "<group>";
+		};
+		D74BE9D91E9CA1C800FBF1D1 /* FMLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FMLib;
+			sourceTree = "<group>";
+		};
+		D74BE9DA1E9CA1C800FBF1D1 /* FMOther */ = {
+			isa = PBXGroup;
+			children = (
+				D7792C791E9C9CA3007F1FD0 /* AppDelegate.swift */,
+				D7792C7B1E9C9CA3007F1FD0 /* ViewController.swift */,
+				D7792C7D1E9C9CA3007F1FD0 /* Main.storyboard */,
+				D7792C801E9C9CA3007F1FD0 /* Assets.xcassets */,
+				D7792C821E9C9CA3007F1FD0 /* LaunchScreen.storyboard */,
+				D7792C851E9C9CA3007F1FD0 /* Info.plist */,
+			);
+			path = FMOther;
+			sourceTree = "<group>";
+		};
+		D7792C6D1E9C9CA3007F1FD0 = {
+			isa = PBXGroup;
+			children = (
+				D7792C781E9C9CA3007F1FD0 /* 喜马拉雅FM */,
+				D7792C8D1E9C9CA3007F1FD0 /* 喜马拉雅FMTests */,
+				D7792C981E9C9CA3007F1FD0 /* 喜马拉雅FMUITests */,
+				D7792C771E9C9CA3007F1FD0 /* Products */,
+				45D573033279DD6691DE5D31 /* Pods */,
+				CC8E0C5C38BE2F1BC86CABDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7792C771E9C9CA3007F1FD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7792C761E9C9CA3007F1FD0 /* 喜马拉雅FM.app */,
+				D7792C8A1E9C9CA3007F1FD0 /* 喜马拉雅FMTests.xctest */,
+				D7792C951E9C9CA3007F1FD0 /* 喜马拉雅FMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7792C781E9C9CA3007F1FD0 /* 喜马拉雅FM */ = {
+			isa = PBXGroup;
+			children = (
+				D74BE9D71E9CA1C800FBF1D1 /* FMClass */,
+				D74BE9D81E9CA1C800FBF1D1 /* FMHelper */,
+				D74BE9D91E9CA1C800FBF1D1 /* FMLib */,
+				D74BE9DA1E9CA1C800FBF1D1 /* FMOther */,
+			);
+			path = "喜马拉雅FM";
+			sourceTree = "<group>";
+		};
+		D7792C8D1E9C9CA3007F1FD0 /* 喜马拉雅FMTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7792C8E1E9C9CA3007F1FD0 /* ____FMTests.swift */,
+				D7792C901E9C9CA3007F1FD0 /* Info.plist */,
+			);
+			path = "喜马拉雅FMTests";
+			sourceTree = "<group>";
+		};
+		D7792C981E9C9CA3007F1FD0 /* 喜马拉雅FMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7792C991E9C9CA3007F1FD0 /* ____FMUITests.swift */,
+				D7792C9B1E9C9CA3007F1FD0 /* Info.plist */,
+			);
+			path = "喜马拉雅FMUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7792C751E9C9CA3007F1FD0 /* 喜马拉雅FM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7792C9E1E9C9CA3007F1FD0 /* Build configuration list for PBXNativeTarget "喜马拉雅FM" */;
+			buildPhases = (
+				C9374242C500FBBC8C8521B8 /* [CP] Check Pods Manifest.lock */,
+				D7792C721E9C9CA3007F1FD0 /* Sources */,
+				D7792C731E9C9CA3007F1FD0 /* Frameworks */,
+				D7792C741E9C9CA3007F1FD0 /* Resources */,
+				6EB4166DF0934531A041B64E /* [CP] Embed Pods Frameworks */,
+				292F57ACEC3F8525098189CB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "喜马拉雅FM";
+			productName = "喜马拉雅FM";
+			productReference = D7792C761E9C9CA3007F1FD0 /* 喜马拉雅FM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7792C891E9C9CA3007F1FD0 /* 喜马拉雅FMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7792CA11E9C9CA3007F1FD0 /* Build configuration list for PBXNativeTarget "喜马拉雅FMTests" */;
+			buildPhases = (
+				D7792C861E9C9CA3007F1FD0 /* Sources */,
+				D7792C871E9C9CA3007F1FD0 /* Frameworks */,
+				D7792C881E9C9CA3007F1FD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7792C8C1E9C9CA3007F1FD0 /* PBXTargetDependency */,
+			);
+			name = "喜马拉雅FMTests";
+			productName = "喜马拉雅FMTests";
+			productReference = D7792C8A1E9C9CA3007F1FD0 /* 喜马拉雅FMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7792C941E9C9CA3007F1FD0 /* 喜马拉雅FMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7792CA41E9C9CA3007F1FD0 /* Build configuration list for PBXNativeTarget "喜马拉雅FMUITests" */;
+			buildPhases = (
+				D7792C911E9C9CA3007F1FD0 /* Sources */,
+				D7792C921E9C9CA3007F1FD0 /* Frameworks */,
+				D7792C931E9C9CA3007F1FD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7792C971E9C9CA3007F1FD0 /* PBXTargetDependency */,
+			);
+			name = "喜马拉雅FMUITests";
+			productName = "喜马拉雅FMUITests";
+			productReference = D7792C951E9C9CA3007F1FD0 /* 喜马拉雅FMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7792C6E1E9C9CA3007F1FD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = vcyber;
+				TargetAttributes = {
+					D7792C751E9C9CA3007F1FD0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M974WD5VWM;
+						ProvisioningStyle = Manual;
+					};
+					D7792C891E9C9CA3007F1FD0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7792C751E9C9CA3007F1FD0;
+					};
+					D7792C941E9C9CA3007F1FD0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7792C751E9C9CA3007F1FD0;
+					};
+				};
+			};
+			buildConfigurationList = D7792C711E9C9CA3007F1FD0 /* Build configuration list for PBXProject "喜马拉雅FM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7792C6D1E9C9CA3007F1FD0;
+			productRefGroup = D7792C771E9C9CA3007F1FD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7792C751E9C9CA3007F1FD0 /* 喜马拉雅FM */,
+				D7792C891E9C9CA3007F1FD0 /* 喜马拉雅FMTests */,
+				D7792C941E9C9CA3007F1FD0 /* 喜马拉雅FMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7792C741E9C9CA3007F1FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7792C841E9C9CA3007F1FD0 /* LaunchScreen.storyboard in Resources */,
+				D7792C811E9C9CA3007F1FD0 /* Assets.xcassets in Resources */,
+				D7792C7F1E9C9CA3007F1FD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7792C881E9C9CA3007F1FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7792C931E9C9CA3007F1FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		292F57ACEC3F8525098189CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-喜马拉雅FM/Pods-喜马拉雅FM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EB4166DF0934531A041B64E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-喜马拉雅FM/Pods-喜马拉雅FM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9374242C500FBBC8C8521B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7792C721E9C9CA3007F1FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7792C7C1E9C9CA3007F1FD0 /* ViewController.swift in Sources */,
+				D7792C7A1E9C9CA3007F1FD0 /* AppDelegate.swift in Sources */,
+				D74BE9DC1E9CA20600FBF1D1 /* AppMarco.swift in Sources */,
+				D74BE9DE1E9CB2EF00FBF1D1 /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7792C861E9C9CA3007F1FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7792C8F1E9C9CA3007F1FD0 /* ____FMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7792C911E9C9CA3007F1FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7792C9A1E9C9CA3007F1FD0 /* ____FMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7792C8C1E9C9CA3007F1FD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7792C751E9C9CA3007F1FD0 /* 喜马拉雅FM */;
+			targetProxy = D7792C8B1E9C9CA3007F1FD0 /* PBXContainerItemProxy */;
+		};
+		D7792C971E9C9CA3007F1FD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7792C751E9C9CA3007F1FD0 /* 喜马拉雅FM */;
+			targetProxy = D7792C961E9C9CA3007F1FD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7792C7D1E9C9CA3007F1FD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7792C7E1E9C9CA3007F1FD0 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D7792C821E9C9CA3007F1FD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7792C831E9C9CA3007F1FD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7792C9C1E9C9CA3007F1FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7792C9D1E9C9CA3007F1FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7792C9F1E9C9CA3007F1FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2B546572343D59352DB5E3 /* Pods-喜马拉雅FM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: cheng hui (7JCUSD7D5K)";
+				DEVELOPMENT_TEAM = M974WD5VWM;
+				INFOPLIST_FILE = "喜马拉雅FM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyw.----FM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a2e7739c-5724-4394-9d2f-92460c8d93ae";
+				PROVISIONING_PROFILE_SPECIFIER = CYW_ALL_APP_Development;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D7792CA01E9C9CA3007F1FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDBC55140E53FEEDBB80B2D4 /* Pods-喜马拉雅FM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: cheng hui (7JCUSD7D5K)";
+				DEVELOPMENT_TEAM = M974WD5VWM;
+				INFOPLIST_FILE = "喜马拉雅FM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyw.----FM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a2e7739c-5724-4394-9d2f-92460c8d93ae";
+				PROVISIONING_PROFILE_SPECIFIER = CYW_ALL_APP_Development;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D7792CA21E9C9CA3007F1FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "喜马拉雅FMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyw.----FMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/喜马拉雅FM.app/喜马拉雅FM";
+			};
+			name = Debug;
+		};
+		D7792CA31E9C9CA3007F1FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "喜马拉雅FMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyw.----FMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/喜马拉雅FM.app/喜马拉雅FM";
+			};
+			name = Release;
+		};
+		D7792CA51E9C9CA3007F1FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "喜马拉雅FMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyw.----FMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "喜马拉雅FM";
+			};
+			name = Debug;
+		};
+		D7792CA61E9C9CA3007F1FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "喜马拉雅FMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cyw.----FMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "喜马拉雅FM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7792C711E9C9CA3007F1FD0 /* Build configuration list for PBXProject "喜马拉雅FM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7792C9C1E9C9CA3007F1FD0 /* Debug */,
+				D7792C9D1E9C9CA3007F1FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7792C9E1E9C9CA3007F1FD0 /* Build configuration list for PBXNativeTarget "喜马拉雅FM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7792C9F1E9C9CA3007F1FD0 /* Debug */,
+				D7792CA01E9C9CA3007F1FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7792CA11E9C9CA3007F1FD0 /* Build configuration list for PBXNativeTarget "喜马拉雅FMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7792CA21E9C9CA3007F1FD0 /* Debug */,
+				D7792CA31E9C9CA3007F1FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7792CA41E9C9CA3007F1FD0 /* Build configuration list for PBXNativeTarget "喜马拉雅FMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7792CA51E9C9CA3007F1FD0 /* Debug */,
+				D7792CA61E9C9CA3007F1FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7792C6E1E9C9CA3007F1FD0 /* Project object */;
+}

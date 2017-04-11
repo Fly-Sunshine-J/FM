@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+target '喜马拉雅FM' do
+    pod 'Alamofire', '~> 4.4'
+    pod 'MBProgressHUD', '~> 1.0.0'
+    pod 'BlocksKit', '~> 2.2.5'
+    pod 'Masonry', '~> 1.0.2'
+    pod 'MJRefresh', '~> 3.1.12'
+    pod 'WMPageController', '~> 2.2.1'
+end
