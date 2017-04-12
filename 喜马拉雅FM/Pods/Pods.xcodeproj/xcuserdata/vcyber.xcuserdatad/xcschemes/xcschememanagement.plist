@@ -14,7 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JYCarousel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -34,6 +44,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>WMPageController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,7 +57,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>133FA8C30011D73CEC3BD55E36C5FA07</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>41FA54D12162DAD51D02FC58A2CD5034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5AA17C95E926B760FD08E0B487DAEFA2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,22 +77,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A85C4C4058ECE7100874128AEE173381</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C03F0D2B1165D307275F33CC6E07A012</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>D52144DE9D7255DE912490FF5A806573</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>DA95417724F6F70D01543C2D4B7FD159</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E14A62900910444707A5504D25EC98DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EAA378F2825C3DC0E979E7DEDF82251E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8888B5FBDBEF54857E6B306FB3BEB83</key>
 		<dict>
 			<key>primary</key>
 			<true/>

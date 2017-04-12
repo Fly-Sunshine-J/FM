@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import MBProgressHUD
 
 extension UIView {
     
@@ -93,3 +94,46 @@ extension UIView {
     }
     
 }
+
+extension MBProgressHUD {
+    
+    func hideLoading() -> Void {
+        self.hide(animated: true);
+    }
+    
+    func showSimpleLoading(inView:UIView = UIApplication.shared.keyWindow!) -> MBProgressHUD {
+        let hud = MBProgressHUD.showAdded(to: inView, animated: true);
+        hud.removeFromSuperViewOnHide = true
+        return hud
+    }
+    
+    func showLoadingWithText(inView:UIView = UIApplication.shared.keyWindow!, text:String?) -> MBProgressHUD {
+        let hud = MBProgressHUD.showAdded(to: inView, animated: true)
+        hud.removeFromSuperViewOnHide = true
+        hud.label.text = text
+        return hud
+    }
+    
+    func showAlertWithText(inView:UIView = UIApplication.shared.keyWindow!, text:String?) -> MBProgressHUD {
+        let hud = MBProgressHUD.showAdded(to: inView, animated: true)
+        hud.mode = .text
+        hud.removeFromSuperViewOnHide = true
+        hud.label.text = text
+        return hud
+    }
+    
+    func showLoadingWithTextAndDelay(inView:UIView = UIApplication.shared.keyWindow!, text:String?, delay:TimeInterval = 0) -> MBProgressHUD {
+        let hud = MBProgressHUD.showAdded(to: inView, animated: true)
+        hud.removeFromSuperViewOnHide = true
+        hud.label.text = text
+        hud.hide(animated: true, afterDelay: delay)
+        return hud
+    }
+    
+}
+
+
+
+
+
+
