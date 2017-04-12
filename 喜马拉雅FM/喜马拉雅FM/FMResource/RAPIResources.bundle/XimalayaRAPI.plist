@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDApplicationManifest</key>
+	<dict>
+		<key>name</key>
+		<string>XimalayaRAPI</string>
+		<key>requiresAudioService</key>
+		<true/>
+		<key>requiresCarDataService</key>
+		<true/>
+		<key>requiresMapService</key>
+		<false/>
+		<key>requiresPiaService</key>
+		<false/>
+		<key>requiresTtsService</key>
+		<false/>
+		<key>requiresVoiceRecorderService</key>
+		<false/>
+		<key>supportedHmiTypes</key>
+		<array>
+			<string>ID4</string>
+			<string>ID5</string>
+		</array>
+		<key>token</key>
+		<string>AQAAAAQAKgBUAHoAWQBdAGwAewBrAEIAWABIAGQAfwAtABEATQAKADEAMgB2AD8AMAAXAFEAQAAoACIAPQBqACwANgBvAHMAagBkAHoAbwBvADcAKwB2ACkAcAArAGgAPABhAGMAIAA9ABIARwBlAFEAHgAlADsAJQAWAEEAfQBNAH0ASQABAD8AGABKAEYAdAB6AH8AfgB2AGEAKwBpAD4ABwA=</string>
+		<key>uniqueIdentifier</key>
+		<string>8bc1d7b5-e044-497a-9711-53a596399b38</string>
+		<key>vendor</key>
+		<string>3rd Party A4A Developer</string>
+		<key>version</key>
+		<string>3.1.0</string>
+	</dict>
+	<key>LaunchUrl</key>
+	<string>ximalaya://com.bmw.a4a/</string>
+	<key>RAPIResourcesVersion</key>
+	<string>3.1.0</string>
+	<key>Signatures</key>
+	<dict>
+		<key>IDApplicationManifestSignature</key>
+		<data>
+		RiF00waxdoOBPYrzF9kBtFy+1CPqYmx2tf4ooHN+OdwJzhnhMjzGTG8RxhgS
+		NH4wRLeFk0ccz6Sal2qGt1E2e7/jVYITq8Eb8DgeGv3FAIgV3BtfPSsKlpVO
+		5QYzryooMM6h0c8GnWRl7ZeyovCqt0NJTqLVSRQ3cx3o36fyfcWo5fdSWiyS
+		TCWLMpsWX2Skfd0Cbn125sSBeVbf6OdLrP9AmaacGod5Wbrz9xcBMlRwEdkQ
+		P72kzDPqWXpuLBgB
+		</data>
+	</dict>
+</dict>
+</plist>

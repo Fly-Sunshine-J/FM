@@ -1,0 +1,46 @@
+{
+	"ret": 0,
+	"source": 0,
+	"responseId": 13226100,
+	"data": [{
+		"shareData": null,
+		"isShareFlag": false,
+		"thirdStatUrl": "http://v.admaster.com.cn/i/a26611,b581092,c5296,i0,m202,0a0,n{MAC},z{IDFA},o{openUDID},0d{AndroidID},f{IP},0c{IMEI},t{TS},q{OSVS},r{TERM},x{APPID},y{APPNAME}",
+		"thirdShowStatUrls": null,
+		"thirdClickStatUrls": [
+			"http://ad.test.ximalaya.com/adrecord/thirdAdRecord?sdn=H4sIAAAAAAAAAKtWykhNTEktUrLKK83J0VFKzs_PzkyF8QoSixJzU0tSi4qVrKqVElM8S1JzPVOUrJQMTYwsjZVqawFgFFg6PwAAAA&ad=14293&xmly=uiwebview&adToken=5952487982687273074%40bjc%7Cbgi%7Cd%7Cbdh"
+		],
+		"name": "摇一摇要大奖摇一摇要大奖",
+		"description": "",
+		"link": "http://ad.test.ximalaya.com/adrecord?sdn=H4sIAAAAAAAAAKtWykhNTEktUrLKK83J0VFKzs_PzkyF8QoSixJzU0tSi4qVrKqVElM8S1JzPVOUrJQMTYwsjZVqawFgFFg6PwAAAA&ad=14293&jt2=aHR0cDovL2Fkd2VsZmFyZS50ZXN0LnhpbWFsYXlhLmNvbS9sb3R0ZXJ5bj9hY3RpdmVJZD0yMw&jt=http%3A%2F%2Fadwelfare.test.ximalaya.com%2Flotteryn%3FactiveId%3D23&xmly=uiwebview&adToken=5952487982687273074%40bjc%7Cbgi%7Cd%7Cbdh&ip=__IP__",
+		"logo": "http://pic74.nipic.com/file/20150811/14041019_195554700000_2.jpg",
+		"cover": "http://img4.3lian.com/img2005/08/47/200811280015133172.png",
+		"image": "http://p0.so.qhmsg.com/t01af11bc9b3466358f.jpg",
+		"soundUrl": "http://fdfs.test.ximalaya.com/group1/M01/3B/C6/wKgDplhGWV-AJMHZAAOzmzcTqac532.mp3",
+		"adtype": 0,
+		"volume": 100,
+		"interactiveType": 0,
+		"countDown": 99,
+		"quantity": 0,
+		"soundType": 6,
+		"iconStyle": "YELLOW_BLACK",
+		"jumpType": "TIPS",
+		"clickType": 1,
+		"clickable": true,
+		"closable": true,
+		"adid": 14293
+	}],
+	"duringPlay": false,
+	"adTypes": [0],
+	"timeSlices": {
+		"start": [0, 0],
+		"middle": [45, 55],
+		"end": [95, 100]
+	},
+	"monitorCodes": {
+		"start": "http://www.baidu.com/start",
+		"middle": "http://www.baidu.com/middle",
+		"end": "http://www.baidu.com/end"
+	},
+	"timeSliceMode": 0
+}
