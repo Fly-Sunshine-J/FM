@@ -3442,28 +3442,6 @@
 		D7E54C461E9DFF02009D5CDD /* web_btn_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E681E9DFEFB009D5CDD /* web_btn_back@3x.png */; };
 		D7E54C471E9DFF02009D5CDD /* web_btn_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E691E9DFEFB009D5CDD /* web_btn_close@2x.png */; };
 		D7E54C481E9DFF02009D5CDD /* web_btn_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E6A1E9DFEFB009D5CDD /* web_btn_close@3x.png */; };
-		D7E54C491E9DFF02009D5CDD /* ieweb.css in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E6D1E9DFEFB009D5CDD /* ieweb.css */; };
-		D7E54C4A1E9DFF02009D5CDD /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E6F1E9DFEFB009D5CDD /* checked.png */; };
-		D7E54C4B1E9DFF02009D5CDD /* del_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E701E9DFEFB009D5CDD /* del_btn.png */; };
-		D7E54C4C1E9DFF02009D5CDD /* delbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E711E9DFEFB009D5CDD /* delbtn.png */; };
-		D7E54C4D1E9DFF02009D5CDD /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E721E9DFEFB009D5CDD /* favicon.ico */; };
-		D7E54C4E1E9DFF02009D5CDD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E731E9DFEFB009D5CDD /* logo.png */; };
-		D7E54C4F1E9DFF02009D5CDD /* ucheck.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E741E9DFEFB009D5CDD /* ucheck.png */; };
-		D7E54C501E9DFF02009D5CDD /* udelbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E751E9DFEFB009D5CDD /* udelbtn.png */; };
-		D7E54C511E9DFF02009D5CDD /* uploadbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E761E9DFEFB009D5CDD /* uploadbtn.png */; };
-		D7E54C521E9DFF02009D5CDD /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E781E9DFEFB009D5CDD /* checked.png */; };
-		D7E54C531E9DFF02009D5CDD /* del_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E791E9DFEFB009D5CDD /* del_btn.png */; };
-		D7E54C541E9DFF02009D5CDD /* delbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E7A1E9DFEFB009D5CDD /* delbtn.png */; };
-		D7E54C551E9DFF02009D5CDD /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E7B1E9DFEFB009D5CDD /* favicon.ico */; };
-		D7E54C561E9DFF02009D5CDD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E7C1E9DFEFB009D5CDD /* logo.png */; };
-		D7E54C571E9DFF02009D5CDD /* ucheck.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E7D1E9DFEFB009D5CDD /* ucheck.png */; };
-		D7E54C581E9DFF02009D5CDD /* udelbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E7E1E9DFEFB009D5CDD /* udelbtn.png */; };
-		D7E54C591E9DFF02009D5CDD /* uploadbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E7F1E9DFEFB009D5CDD /* uploadbtn.png */; };
-		D7E54C5A1E9DFF02009D5CDD /* web.css in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E801E9DFEFB009D5CDD /* web.css */; };
-		D7E54C5B1E9DFF02009D5CDD /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E811E9DFEFB009D5CDD /* index.html */; };
-		D7E54C5C1E9DFF02009D5CDD /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E831E9DFEFB009D5CDD /* app.js */; };
-		D7E54C5D1E9DFF02009D5CDD /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E851E9DFEFB009D5CDD /* jquery.js */; };
-		D7E54C5E1E9DFF02009D5CDD /* uploader.swf in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E861E9DFEFB009D5CDD /* uploader.swf */; };
 		D7E54C5F1E9DFF02009D5CDD /* wifi_bind@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E871E9DFEFB009D5CDD /* wifi_bind@2x.png */; };
 		D7E54C601E9DFF02009D5CDD /* wifi_bind@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E881E9DFEFB009D5CDD /* wifi_bind@3x.png */; };
 		D7E54C611E9DFF02009D5CDD /* wifi_binded@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7E53E891E9DFEFB009D5CDD /* wifi_binded@2x.png */; };
@@ -7036,28 +7014,6 @@
 		D7E53E681E9DFEFB009D5CDD /* web_btn_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "web_btn_back@3x.png"; sourceTree = "<group>"; };
 		D7E53E691E9DFEFB009D5CDD /* web_btn_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "web_btn_close@2x.png"; sourceTree = "<group>"; };
 		D7E53E6A1E9DFEFB009D5CDD /* web_btn_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "web_btn_close@3x.png"; sourceTree = "<group>"; };
-		D7E53E6D1E9DFEFB009D5CDD /* ieweb.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ieweb.css; sourceTree = "<group>"; };
-		D7E53E6F1E9DFEFB009D5CDD /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
-		D7E53E701E9DFEFB009D5CDD /* del_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = del_btn.png; sourceTree = "<group>"; };
-		D7E53E711E9DFEFB009D5CDD /* delbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delbtn.png; sourceTree = "<group>"; };
-		D7E53E721E9DFEFB009D5CDD /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
-		D7E53E731E9DFEFB009D5CDD /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		D7E53E741E9DFEFB009D5CDD /* ucheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ucheck.png; sourceTree = "<group>"; };
-		D7E53E751E9DFEFB009D5CDD /* udelbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = udelbtn.png; sourceTree = "<group>"; };
-		D7E53E761E9DFEFB009D5CDD /* uploadbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uploadbtn.png; sourceTree = "<group>"; };
-		D7E53E781E9DFEFB009D5CDD /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
-		D7E53E791E9DFEFB009D5CDD /* del_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = del_btn.png; sourceTree = "<group>"; };
-		D7E53E7A1E9DFEFB009D5CDD /* delbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delbtn.png; sourceTree = "<group>"; };
-		D7E53E7B1E9DFEFB009D5CDD /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
-		D7E53E7C1E9DFEFB009D5CDD /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		D7E53E7D1E9DFEFB009D5CDD /* ucheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ucheck.png; sourceTree = "<group>"; };
-		D7E53E7E1E9DFEFB009D5CDD /* udelbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = udelbtn.png; sourceTree = "<group>"; };
-		D7E53E7F1E9DFEFB009D5CDD /* uploadbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uploadbtn.png; sourceTree = "<group>"; };
-		D7E53E801E9DFEFB009D5CDD /* web.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = web.css; sourceTree = "<group>"; };
-		D7E53E811E9DFEFB009D5CDD /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		D7E53E831E9DFEFB009D5CDD /* app.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
-		D7E53E851E9DFEFB009D5CDD /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
-		D7E53E861E9DFEFB009D5CDD /* uploader.swf */ = {isa = PBXFileReference; lastKnownFileType = file; path = uploader.swf; sourceTree = "<group>"; };
 		D7E53E871E9DFEFB009D5CDD /* wifi_bind@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifi_bind@2x.png"; sourceTree = "<group>"; };
 		D7E53E881E9DFEFB009D5CDD /* wifi_bind@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifi_bind@3x.png"; sourceTree = "<group>"; };
 		D7E53E891E9DFEFB009D5CDD /* wifi_binded@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifi_binded@2x.png"; sourceTree = "<group>"; };
@@ -10879,7 +10835,6 @@
 				D7E53E681E9DFEFB009D5CDD /* web_btn_back@3x.png */,
 				D7E53E691E9DFEFB009D5CDD /* web_btn_close@2x.png */,
 				D7E53E6A1E9DFEFB009D5CDD /* web_btn_close@3x.png */,
-				D7E53E6B1E9DFEFB009D5CDD /* website */,
 				D7E53E871E9DFEFB009D5CDD /* wifi_bind@2x.png */,
 				D7E53E881E9DFEFB009D5CDD /* wifi_bind@3x.png */,
 				D7E53E891E9DFEFB009D5CDD /* wifi_binded@2x.png */,
@@ -11027,75 +10982,6 @@
 				D7E53E621E9DFEFB009D5CDD /* tingWatchApp.app */,
 			);
 			path = Watch;
-			sourceTree = "<group>";
-		};
-		D7E53E6B1E9DFEFB009D5CDD /* website */ = {
-			isa = PBXGroup;
-			children = (
-				D7E53E6C1E9DFEFB009D5CDD /* css */,
-				D7E53E811E9DFEFB009D5CDD /* index.html */,
-				D7E53E821E9DFEFB009D5CDD /* js */,
-			);
-			path = website;
-			sourceTree = "<group>";
-		};
-		D7E53E6C1E9DFEFB009D5CDD /* css */ = {
-			isa = PBXGroup;
-			children = (
-				D7E53E6D1E9DFEFB009D5CDD /* ieweb.css */,
-				D7E53E6E1E9DFEFB009D5CDD /* img */,
-				D7E53E771E9DFEFB009D5CDD /* img_ie */,
-				D7E53E801E9DFEFB009D5CDD /* web.css */,
-			);
-			path = css;
-			sourceTree = "<group>";
-		};
-		D7E53E6E1E9DFEFB009D5CDD /* img */ = {
-			isa = PBXGroup;
-			children = (
-				D7E53E6F1E9DFEFB009D5CDD /* checked.png */,
-				D7E53E701E9DFEFB009D5CDD /* del_btn.png */,
-				D7E53E711E9DFEFB009D5CDD /* delbtn.png */,
-				D7E53E721E9DFEFB009D5CDD /* favicon.ico */,
-				D7E53E731E9DFEFB009D5CDD /* logo.png */,
-				D7E53E741E9DFEFB009D5CDD /* ucheck.png */,
-				D7E53E751E9DFEFB009D5CDD /* udelbtn.png */,
-				D7E53E761E9DFEFB009D5CDD /* uploadbtn.png */,
-			);
-			path = img;
-			sourceTree = "<group>";
-		};
-		D7E53E771E9DFEFB009D5CDD /* img_ie */ = {
-			isa = PBXGroup;
-			children = (
-				D7E53E781E9DFEFB009D5CDD /* checked.png */,
-				D7E53E791E9DFEFB009D5CDD /* del_btn.png */,
-				D7E53E7A1E9DFEFB009D5CDD /* delbtn.png */,
-				D7E53E7B1E9DFEFB009D5CDD /* favicon.ico */,
-				D7E53E7C1E9DFEFB009D5CDD /* logo.png */,
-				D7E53E7D1E9DFEFB009D5CDD /* ucheck.png */,
-				D7E53E7E1E9DFEFB009D5CDD /* udelbtn.png */,
-				D7E53E7F1E9DFEFB009D5CDD /* uploadbtn.png */,
-			);
-			path = img_ie;
-			sourceTree = "<group>";
-		};
-		D7E53E821E9DFEFB009D5CDD /* js */ = {
-			isa = PBXGroup;
-			children = (
-				D7E53E831E9DFEFB009D5CDD /* app.js */,
-				D7E53E841E9DFEFB009D5CDD /* lib */,
-			);
-			path = js;
-			sourceTree = "<group>";
-		};
-		D7E53E841E9DFEFB009D5CDD /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				D7E53E851E9DFEFB009D5CDD /* jquery.js */,
-				D7E53E861E9DFEFB009D5CDD /* uploader.swf */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -11349,7 +11235,6 @@
 				D7E53F031E9DFEFF009D5CDD /* activity_begin@2x.png in Resources */,
 				D7E5482E1E9DFF01009D5CDD /* paycmt_checkinfo@2x.png in Resources */,
 				D7E53FF21E9DFEFF009D5CDD /* btn_downloadsound_reverseOrder_h@2x.png in Resources */,
-				D7E54C531E9DFF02009D5CDD /* del_btn.png in Resources */,
 				D7E540C71E9DFEFF009D5CDD /* cell_bg_top_ipad_n@2x.png in Resources */,
 				D7E544B91E9DFF00009D5CDD /* live_btn_comment@3x.png in Resources */,
 				D7E548F21E9DFF01009D5CDD /* QBImagePicker~iphone.storyboardc in Resources */,
@@ -11475,7 +11360,6 @@
 				D7E54BA61E9DFF02009D5CDD /* topic_comment_n@3x.png in Resources */,
 				D7E548AE1E9DFF01009D5CDD /* playProcessCe@3x.png in Resources */,
 				D7E540021E9DFEFF009D5CDD /* btn_finish_listened_n@3x.png in Resources */,
-				D7E54C4C1E9DFF02009D5CDD /* delbtn.png in Resources */,
 				D7E543B21E9DFF00009D5CDD /* icon_fabu_h@2x.png in Resources */,
 				D7E54AA81E9DFF01009D5CDD /* sound_album@3x.png in Resources */,
 				D7E545C81E9DFF00009D5CDD /* mainLogo_MINI@2x.png in Resources */,
@@ -11653,7 +11537,6 @@
 				D7E542751E9DFF00009D5CDD /* find_Local_Icon@3x.png in Resources */,
 				D7E541C51E9DFEFF009D5CDD /* danmubgself@3x.png in Resources */,
 				D7E54CBD1E9DFF02009D5CDD /* zone_quit_n@2x.png in Resources */,
-				D7E54C551E9DFF02009D5CDD /* favicon.ico in Resources */,
 				D7E546951E9DFF00009D5CDD /* new_verson_info@3x.png in Resources */,
 				D7E54B1F1E9DFF02009D5CDD /* tag_default@2x.png in Resources */,
 				D7E544711E9DFF00009D5CDD /* l_shangxin.png in Resources */,
@@ -11967,7 +11850,6 @@
 				D7E543811E9DFF00009D5CDD /* ic_tyq_zty_weibo@3x.png in Resources */,
 				D7E545741E9DFF00009D5CDD /* live_img_tips_imagehide@2x.png in Resources */,
 				D7E54A2E1E9DFF01009D5CDD /* secret@2x.png in Resources */,
-				D7E54C491E9DFF02009D5CDD /* ieweb.css in Resources */,
 				D7E54BE21E9DFF02009D5CDD /* user_edit_btn_h@3x.png in Resources */,
 				D7E54C8C1E9DFF02009D5CDD /* wifibox_play_h@3x.png in Resources */,
 				D7E54BA71E9DFF02009D5CDD /* topic_lz@2x.png in Resources */,
@@ -11988,7 +11870,6 @@
 				D7E541901E9DFEFF009D5CDD /* d_qian.png in Resources */,
 				D7E5419A1E9DFEFF009D5CDD /* d_shudaizi.png in Resources */,
 				D7E5417D1E9DFEFF009D5CDD /* d_keai@2x.png in Resources */,
-				D7E54C511E9DFF02009D5CDD /* uploadbtn.png in Resources */,
 				D7E540E81E9DFEFF009D5CDD /* cell_downstop@3x.png in Resources */,
 				D7E5447E1E9DFF00009D5CDD /* LaunchImage-Portrait@2x~ipad.png in Resources */,
 				D7E547731E9DFF01009D5CDD /* np_toolbar_clock_n@3x.png in Resources */,
@@ -12104,7 +11985,6 @@
 				D7E547701E9DFF01009D5CDD /* np_toolbar_clock_h@2x.png in Resources */,
 				D7E5412F1E9DFEFF009D5CDD /* coolStart_guide_4sbg.png in Resources */,
 				D7E541481E9DFEFF009D5CDD /* coupon_unsel@2x.png in Resources */,
-				D7E54C541E9DFF02009D5CDD /* delbtn.png in Resources */,
 				D7E545911E9DFF00009D5CDD /* livePlayingHistory@2x.png in Resources */,
 				D7E543C91E9DFF00009D5CDD /* icon_more@3x.png in Resources */,
 				D7E5403C1E9DFEFF009D5CDD /* btn_prelisten_play_d@2x.png in Resources */,
@@ -12231,7 +12111,6 @@
 				D7E541DA1E9DFEFF009D5CDD /* demo_fontclass.html in Resources */,
 				D7E548B81E9DFF01009D5CDD /* plu_header@3x.png in Resources */,
 				D7E545CE1E9DFF00009D5CDD /* me_celllogo_email_h@3x.png in Resources */,
-				D7E54C5D1E9DFF02009D5CDD /* jquery.js in Resources */,
 				D7E540BA1E9DFEFF009D5CDD /* cell_bg_middle_noseg_n@2x.png in Resources */,
 				D7E548F11E9DFF01009D5CDD /* QBImagePicker~ipad.storyboardc in Resources */,
 				D7E5406D1E9DFEFF009D5CDD /* btn_select_listened_n@2x.png in Resources */,
@@ -12320,7 +12199,6 @@
 				D7E53F1B1E9DFEFF009D5CDD /* album_blind@2x.png in Resources */,
 				D7E54B511E9DFF02009D5CDD /* toolbar_danmu_n_p@3x.png in Resources */,
 				D7E5409D1E9DFEFF009D5CDD /* Cancel_btn@2x.png in Resources */,
-				D7E54C501E9DFF02009D5CDD /* udelbtn.png in Resources */,
 				D7E5476D1E9DFF01009D5CDD /* np_toolbar_back_n@2x.png in Resources */,
 				D7E54AB61E9DFF01009D5CDD /* sound_feed_more@2x.png in Resources */,
 				D7E5415E1E9DFEFF009D5CDD /* d_bizui.png in Resources */,
@@ -12473,7 +12351,6 @@
 				D7E543331E9DFF00009D5CDD /* ic_dmgg_star_small_o@3x.png in Resources */,
 				D7E54BCC1E9DFF02009D5CDD /* umeng_fb_audio_play_03@2x.png in Resources */,
 				D7E543251E9DFF00009D5CDD /* ic_discovery_new@3x.png in Resources */,
-				D7E54C591E9DFF02009D5CDD /* uploadbtn.png in Resources */,
 				D7E5470A1E9DFF01009D5CDD /* np_face_disable@3x.png in Resources */,
 				D7E547091E9DFF01009D5CDD /* np_face_disable@2x.png in Resources */,
 				D7E549951E9DFF01009D5CDD /* record_sharesina_h@3x.png in Resources */,
@@ -12594,12 +12471,10 @@
 				D7E5402D1E9DFEFF009D5CDD /* btn_other_unfollow_n@2x.png in Resources */,
 				D7E53F811E9DFEFF009D5CDD /* UMFeedbackLocalizable.strings in Resources */,
 				D7E544EA1E9DFF00009D5CDD /* live_btn_report@2x.png in Resources */,
-				D7E54C4F1E9DFF02009D5CDD /* ucheck.png in Resources */,
 				D7E542371E9DFEFF009D5CDD /* find_album_unfav_n@2x.png in Resources */,
 				D7E541E61E9DFEFF009D5CDD /* device_playLike@3x.png in Resources */,
 				D7E54BEF1E9DFF02009D5CDD /* user_head_comment@2x.png in Resources */,
 				D7E54B811E9DFF02009D5CDD /* toolbar_playinglist_h_p@2x.png in Resources */,
-				D7E54C4D1E9DFF02009D5CDD /* favicon.ico in Resources */,
 				D7E540A31E9DFEFF009D5CDD /* carlifeLogo@2x.png in Resources */,
 				D7E545AC1E9DFF00009D5CDD /* liveRadioSectionMore_High@3x.png in Resources */,
 				D7E542801E9DFF00009D5CDD /* find_other@3x.png in Resources */,
@@ -12621,7 +12496,6 @@
 				D7E54CAD1E9DFF02009D5CDD /* zone_icon_bg@2x.png in Resources */,
 				D7E549E11E9DFF01009D5CDD /* RF_history@3x.png in Resources */,
 				D7E543BC1E9DFF00009D5CDD /* icon_history_n@2x.png in Resources */,
-				D7E54C4E1E9DFF02009D5CDD /* logo.png in Resources */,
 				D7E549D61E9DFF01009D5CDD /* reward_bronze@2x.png in Resources */,
 				D7E541371E9DFEFF009D5CDD /* coolStart_nextTime@2x.png in Resources */,
 				D7E54C8D1E9DFF02009D5CDD /* wifibox_step1@2x.png in Resources */,
@@ -12646,7 +12520,6 @@
 				D7E54B281E9DFF02009D5CDD /* tagview_n@2x.png in Resources */,
 				D7E547B81E9DFF01009D5CDD /* o_weiguan.png in Resources */,
 				D7E54C451E9DFF02009D5CDD /* web_btn_back@2x.png in Resources */,
-				D7E54C581E9DFF02009D5CDD /* udelbtn.png in Resources */,
 				D7E5444A1E9DFF00009D5CDD /* image_mylive_nodata@3x.png in Resources */,
 				D7E54B391E9DFF02009D5CDD /* titleBorder@3x.png in Resources */,
 				D7E5423A1E9DFEFF009D5CDD /* find_albumcell_cover_bg@3x.png in Resources */,
@@ -12884,7 +12757,6 @@
 				D7E53FF31E9DFEFF009D5CDD /* btn_downloadsound_reverseOrder_h@3x.png in Resources */,
 				D7E546921E9DFF00009D5CDD /* networkhelp.html in Resources */,
 				D7E54B9F1E9DFF02009D5CDD /* top_search@3x.png in Resources */,
-				D7E54C571E9DFF02009D5CDD /* ucheck.png in Resources */,
 				D7E54B161E9DFF02009D5CDD /* tabbar_np_playnon@3x.png in Resources */,
 				D7E5412D1E9DFEFF009D5CDD /* coolStart_female_s@2x.png in Resources */,
 				D7E547311E9DFF01009D5CDD /* np_lovers_count_n@2x.png in Resources */,
@@ -12927,7 +12799,6 @@
 				D7E54A991E9DFF01009D5CDD /* shuke_conn_wifi.gif in Resources */,
 				D7E53F501E9DFEFF009D5CDD /* AppIcon29x29@2x.png in Resources */,
 				D7E53FAA1E9DFEFF009D5CDD /* btn_back_n@2x.png in Resources */,
-				D7E54C4A1E9DFF02009D5CDD /* checked.png in Resources */,
 				D7E5477E1E9DFF01009D5CDD /* np_toolbar_download_n@2x.png in Resources */,
 				D7E543601E9DFF00009D5CDD /* ic_tyq_fb_search@2x.png in Resources */,
 				D7E546401E9DFF00009D5CDD /* messageCenter_icon_sixin_h@3x.png in Resources */,
@@ -13555,7 +13426,6 @@
 				D7E549431E9DFF01009D5CDD /* rec_img_recon@2x.png in Resources */,
 				D7E53FE91E9DFEFF009D5CDD /* btn_downloadsound_deletion_n@3x.png in Resources */,
 				D7E54AF41E9DFF02009D5CDD /* suicheting@3x.png in Resources */,
-				D7E54C561E9DFF02009D5CDD /* logo.png in Resources */,
 				D7E5457E1E9DFF00009D5CDD /* live_menu_adminlist@3x.png in Resources */,
 				D7E547111E9DFF01009D5CDD /* np_headview_following_n@2x.png in Resources */,
 				D7E54BE81E9DFF02009D5CDD /* user_female@3x.png in Resources */,
@@ -13748,7 +13618,6 @@
 				D7E54CA91E9DFF02009D5CDD /* xplay_cancel@3x.png in Resources */,
 				D7E5421F1E9DFEFF009D5CDD /* feedAd_del@2x.png in Resources */,
 				D7E54C931E9DFF02009D5CDD /* wifilogo@2x.png in Resources */,
-				D7E54C5C1E9DFF02009D5CDD /* app.js in Resources */,
 				D7E5493B1E9DFF01009D5CDD /* rec_img_logo@2x.png in Resources */,
 				D7E549711E9DFF01009D5CDD /* record_help_4@2x.jpg in Resources */,
 				D7E544001E9DFF00009D5CDD /* icon_rec_preview_control@2x.png in Resources */,
@@ -13839,7 +13708,6 @@
 				D7E5483B1E9DFF01009D5CDD /* paycmt_liked@3x.png in Resources */,
 				D7E544BD1E9DFF00009D5CDD /* live_btn_end@3x.png in Resources */,
 				D7E543E61E9DFF00009D5CDD /* icon_rec_bgm@2x.png in Resources */,
-				D7E54C5B1E9DFF02009D5CDD /* index.html in Resources */,
 				D7E53F041E9DFEFF009D5CDD /* activity_during@2x.png in Resources */,
 				D7E53F291E9DFEFF009D5CDD /* album_coupon_right@2x.png in Resources */,
 				D7E5456E1E9DFF00009D5CDD /* live_img_replay_list@2x.png in Resources */,
@@ -13942,7 +13810,6 @@
 				D7E546361E9DFF00009D5CDD /* meSoundEdit_topView_default@3x.png in Resources */,
 				D7E546761E9DFF00009D5CDD /* myCenterNoCmt@2x.png in Resources */,
 				D7E545131E9DFF00009D5CDD /* live_gift_icon_selected@2x.png in Resources */,
-				D7E54C4B1E9DFF02009D5CDD /* del_btn.png in Resources */,
 				D7E54C411E9DFF02009D5CDD /* wd_more_ic_clock@2x.png in Resources */,
 				D7E5436A1E9DFF00009D5CDD /* ic_tyq_massage_red@2x.png in Resources */,
 				D7E546301E9DFF00009D5CDD /* MeSettingLogout.plist in Resources */,
@@ -14053,7 +13920,6 @@
 				D7E543751E9DFF00009D5CDD /* ic_tyq_stop@3x.png in Resources */,
 				D7E5409A1E9DFEFF009D5CDD /* BundleRings.plist in Resources */,
 				D7E54C3A1E9DFF02009D5CDD /* w_xue.png in Resources */,
-				D7E54C5A1E9DFF02009D5CDD /* web.css in Resources */,
 				D7E547901E9DFF01009D5CDD /* np_toolbar_share_n@2x.png in Resources */,
 				D7E540E71E9DFEFF009D5CDD /* cell_downstop@2x.png in Resources */,
 				D7E549CC1E9DFF01009D5CDD /* regview_tab_r@2x.png in Resources */,
@@ -14209,7 +14075,6 @@
 				D7E544621E9DFF00009D5CDD /* Info.plist in Resources */,
 				D7E5451B1E9DFF00009D5CDD /* live_ic_badge_top3@2x.png in Resources */,
 				D7E540DB1E9DFEFF009D5CDD /* cell_download@2x.png in Resources */,
-				D7E54C521E9DFF02009D5CDD /* checked.png in Resources */,
 				D7E548C31E9DFF01009D5CDD /* pluto_ring@2x.png in Resources */,
 				D7E549C81E9DFF01009D5CDD /* registerAndLogin_wechat_button@2x.png in Resources */,
 				D7E5465F1E9DFF00009D5CDD /* musicPersonImage@2x.png in Resources */,
@@ -14240,7 +14105,6 @@
 				D7E547431E9DFF01009D5CDD /* np_more_sleep@2x.png in Resources */,
 				D7E54BE41E9DFF02009D5CDD /* user_edit_btn_n@3x.png in Resources */,
 				D7E542181E9DFEFF009D5CDD /* fail@3x.png in Resources */,
-				D7E54C5E1E9DFF02009D5CDD /* uploader.swf in Resources */,
 				D7E546281E9DFF00009D5CDD /* MeAccount.plist in Resources */,
 				D7E545E71E9DFF00009D5CDD /* me_more_download@3x.png in Resources */,
 				D7E542151E9DFEFF009D5CDD /* f_zhi.png in Resources */,
