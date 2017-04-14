@@ -8,11 +8,11 @@
 
 import UIKit
 
-class SubscribeViewController: UIViewController {
+class SubscribeViewController: FMBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = UIColor.white
         // Do any additional setup after loading the view.
     }
 

@@ -7,15 +7,26 @@
 //
 
 import UIKit
+import MBProgressHUD
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, XMLYAuthorizeDelegate {
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let playerNav: FMPlayerViewController = FMPlayerViewController(rootViewController: FMTabBarController())
+        
+        window?.rootViewController = playerNav;
+        
+        application.beginReceivingRemoteControlEvents()
+        self.becomeFirstResponder()
+        
+        XMLYAuthorize.shareInstance().initWithAppkey(kTestClientId, appSecret: kTestClientSecret, appRedirectUri: kTestCallbackURL, appPackageId: kTestClientBundleId, appName: kTestClientName, appScheme: kTestClientScheme, delegate: self)
+        XMReqMgr.sharedInstance().registerXMReqInfo(withKey: kTestClientId, appSecret: kTestClientSecret)
+        
         return true
     }
 
@@ -41,6 +52,47 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    
+    override func remoteControlReceived(with event: UIEvent?) {
+        if event?.type != .remoteControl {
+            return
+        }
+        
+        if event?.subtype == .remoteControlPause {
+            XMSDKPlayer.shared().pauseTrackPlay()
+        }else if event?.subtype == .remoteControlPlay {
+            XMSDKPlayer.shared().resumeTrackPlay()
+        }else if event?.subtype == .remoteControlTogglePlayPause {
+            XMSDKPlayer.shared().pauseTrackPlay()
+        }
+    }
 
 }
+
+
+//MARK: -XMLYAuthorizeDelegate
+
+extension AppDelegate {
+    func onAuthorizeSuccess(_ responseType: XmlyResponseType, responseData authorizeModel: XMLYAuthorizeModel!) {
+        if .AuthorizeSuccess == responseType {
+            MBProgressHUD.showAlertWithTextAndDelay("授权成功", 2)
+        }else if .RefreshTokenSuccess == responseType {
+            MBProgressHUD.showAlertWithTextAndDelay("刷新accesstoken成功", 2)
+        }
+    }
+    
+    
+    func onAuthorizeFail(_ errorType: XmlyResponseType) {
+        if .ErrorAuthorizeFail == errorType {
+            MBProgressHUD.showAlertWithTextAndDelay("授权失败", 2)
+        }
+        else if .ErrorRefreshTokenFail == errorType {
+            MBProgressHUD.showAlertWithTextAndDelay("刷新accesstoken失败", 2)
+        }
+    }
+}
+
+
+
+
 

@@ -12,7 +12,7 @@ class BaseNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        navigationBar.barTintColor = UIColor.white
         // Do any additional setup after loading the view.
     }
 
@@ -21,6 +21,17 @@ class BaseNavigationController: UINavigationController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+        if viewController.isKind(of: HomeViewController.self) || viewController.isKind(of: SubscribeViewController.self) || viewController.isKind(of: FindViewController.self) || viewController.isKind(of: MeViewController.self) {
+            
+        }else {
+            viewController.hidesBottomBarWhenPushed = true
+        }
+        
+        self.navigationController?.navigationBar.isHidden = animated
+        super.pushViewController(viewController, animated: animated)
+    }
 
     /*
     // MARK: - Navigation
