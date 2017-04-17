@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MJRefresh
 
 class FMBaseViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -20,11 +21,10 @@ class FMBaseViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     lazy var dataSource:[Any] = Array()
     
-    lazy var page:Int = 0
+    lazy var page:Int = 1
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //view.backgroundColor = UIColor.white
         
         // Do any additional setup after loading the view.
     }
@@ -46,10 +46,10 @@ class FMBaseViewController: UIViewController, UITableViewDelegate, UITableViewDa
     */
 
 }
-
+// MARK: - TableViewDataSource
 extension FMBaseViewController {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return dataSource.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -58,5 +58,28 @@ extension FMBaseViewController {
             cell = UITableViewCell(style: .default, reuseIdentifier: "CELL")
         }
         return cell!
+    }
+}
+
+// MARK: - MJRefresh
+extension FMBaseViewController {
+    open func createRefresh() -> Void {
+        let header: MJRefreshNormalHeader = MJRefreshNormalHeader(refreshingTarget: self, refreshingAction: #selector(refresh))
+        tableView.mj_header = header
+        let footer:MJRefreshAutoNormalFooter = MJRefreshAutoNormalFooter(refreshingTarget: self, refreshingAction: #selector(getMore))
+        tableView.mj_footer = footer
+    }
+    
+    open func refresh() -> Void {
+        
+    }
+    
+    open func getMore() -> Void {
+        
+    }
+    
+    open func endRefresh() -> Void {
+        tableView.mj_header.endRefreshing()
+        tableView.mj_footer.endRefreshing()
     }
 }
